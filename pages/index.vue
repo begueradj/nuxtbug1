@@ -17,6 +17,28 @@ export default {
   components: {
     ChildPage,
     draggable
+  },
+  data () {
+    return {
+      myArray: [
+        {
+          id: 1,
+          name: 'java'
+        },
+        {
+          id: 2,
+          name: 'python'
+        },
+        {
+          id: 3,
+          name: 'php'
+        },
+        {
+          id: 4,
+          name: 'javascript'
+        }
+      ]
+    }
   }
 }
 </script>
