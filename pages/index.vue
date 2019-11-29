@@ -1,6 +1,6 @@
 <template>
   <v-container>
-    <ChildPage />
+    <ChildPage :id="Number(1)" :state="Number(1)" />
   </v-container>
 </template>
 
